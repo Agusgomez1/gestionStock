@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Ajusta la fuente a tu preferencia */
+}
+
+.formulario {
+    min-height: 100vh; /* Usa el 100% del alto de la ventana de visualización */
+    background-image: url(/src/background.webp);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el espacio disponible */
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:30rem ;
+    border: 1px solid #ffffff;
+    border-radius: 2rem;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

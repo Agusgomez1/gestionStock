@@ -1,0 +1,9 @@
+Tipos de usuario
+
+Tipo administrador
+Nombre: Admin
+Contraseña: 123456
+
+Tipo usuario
+Nombre: User
+Contraseña: 123456

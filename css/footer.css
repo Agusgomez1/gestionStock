@@ -1,0 +1,39 @@
+
+
+.main-content {
+    flex: 1;
+    /* Asegura que el contenido principal ocupe todo el espacio disponible */
+}
+
+.footer {
+    height: 100px; /* Ajusta según la altura de tu footer */
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color de texto del footer */
+    text-align: center;
+    line-height: 100px; /* Centrar texto verticalmente si es de una sola línea */
+    position: relative; /* Para evitar que cubra el contenido */
+    bottom: 0;
+    width: 100%;
+}
+
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 16px;
+}
